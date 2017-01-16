@@ -1,2 +1,10 @@
-# JSPatchRepair
-使用JSPatch实现程序热更新功能
+# JSPatchDemo
+Fix bugs without update versions
+
+# Installation
+
+platform :ios, '6.0'
+pod 'JSPatch'
+
+# Manually
+Copy JSEngine.m JSEngine.h JSPatch.js in JSPatch/ to your project.
